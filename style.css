@@ -58,10 +58,10 @@ main-1 {
     /* border: 2px solid greenyellow; */
 }
 
-.figure {
+/* .figure {
     width: ;
-    /* border: 2px solid red; */
-}
+    border: 2px solid red;
+} */
 
 main-1 h1 {
     color: white;
@@ -86,6 +86,7 @@ main-1 p {
     outline: none;
     font-weight: 900;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 main-2 {
@@ -148,19 +149,19 @@ main-3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     background: grey;
     height: 300px;
     padding: 19px 120px;
 }
 
 main-3 p {
-    font-size: 35px;
+    font-size: 31px;
     font-style: italic;
-
 }
 
-main-3 .p2{
+main-3 .p2 {
+    font-size: 25px;
     align-self: flex-end;
 }
 
@@ -173,26 +174,25 @@ main-4 {
 }
 
 main-4 .sub {
-    
+
     background: #3B82F6;
     padding: 0 65px;
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     height: 130px;
     width: 675px;
-    border: 2px solid red;
     border-radius: 10px;
     color: white;
 }
 
-main-4 .btn2{
+main-4 .btn2 {
     border: 2px solid white;
     border-radius: 5px;
     margin: 25px auto;
     width: 90px;
     text-align: center;
     margin-left: 155px;
+    cursor: pointer;
 }
 
 
@@ -203,4 +203,39 @@ footer {
     align-items: center;
     background-color: #1F2937;
     padding: 24px 0px;
+}
+
+.page-1,
+.page-2,
+.page-3 {
+    background-color: #1F2937;
+    color: white;
+}
+
+.page-1 h1,
+.page-2 h1,
+.page-3 h1 {
+    padding: 25px;
+    text-align: center;
+}
+
+.page-1 main,
+.page-2 main,
+.page-3 main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-1 .image,
+.page-2 .image,
+.page-3 .image {
+    border: 2px solid red;
+    margin: 18px;
+
 }
